@@ -22,7 +22,6 @@
   targets.darwin.dock = {
     # Apps to be added to Dock.
     apps = [
-      "Brave Browser"
       "Rider"
       "Visual Studio Code"
       "iTerm"
