@@ -2,7 +2,7 @@
 {
 
   darwin.apps = {
-    raycast.enable = true;
+    raycast.enable = false;
     iterm2.enable = true; # best terminal ever
   };
 
@@ -20,30 +20,23 @@
 
     casks = [
       "1password"
-      "brave-browser" # better chrome
-      "discord"
-      "telegram"
-      # "docker"
-      "rancher"
-      "dropbox"
+      #"brave-browser" # better chrome
+      #"discord"
+      "docker"
+      #"dropbox"
       "licecap" # animated screenshots
       "openvpn-connect"
-      "postman"
+      #"postman"
       "rider"
-      "intellij-idea"
-      "webstorm"
-      "skype"
-      "slack"
-      "sublime-text"
+      #"skype"
+      #"slack"
+      #"sublime-text"
       "visual-studio-code"
       "vlc"
-      "zoom"
+      #"zoom"
+      # "balenaetcher"
 
-      "google-chrome"
-      "firefox"
-      "opera"
-      "nosql-workbench"
-      "altair-graphql-client"
+      #"google-chrome"
     ];
 
     brews = [
