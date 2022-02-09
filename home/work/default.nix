@@ -17,6 +17,7 @@ in
       EP_NUGET_SOURCE_URL = epNugetSource.url;
       EP_NUGET_SOURCE_USER = epNugetSource.userName;
       EP_NUGET_SOURCE_PASS = epNugetSource.password;
+      EP_SERVER_SOURCE_DIR = "/Users/matthewoffen/Documents/dev/server";
     };
   };
 
