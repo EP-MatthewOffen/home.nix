@@ -27,6 +27,7 @@
       "licecap" # animated screenshots
       "openvpn-connect"
       #"postman"
+      #"postgresql"
       "rider"
       #"skype"
       #"slack"

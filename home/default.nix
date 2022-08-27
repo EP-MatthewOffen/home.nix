@@ -154,6 +154,11 @@ in
     };
   };
 
+  programs.zsh.shellAliases = {
+      g = "git --no-pager";
+      awslocal = "aws --endpoint-url=http://localhost:4566";
+  };
+
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
   # when a new Home Manager release introduces backwards

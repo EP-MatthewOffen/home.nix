@@ -23,10 +23,10 @@
     # Apps to be added to Dock.
     apps = [
       "Rider"
-      "Visual Studio Code"
+      #"Visual Studio Code"
       "iTerm"
-      "Slack"
-      "Telegram"
+      #"Slack"
+      #"Telegram"
     ];
 
     # "Others" section in Dock (the one after the bar, where the Bin sits).
