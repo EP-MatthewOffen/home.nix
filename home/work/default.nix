@@ -24,12 +24,6 @@ in
     };
   };
 
-  tools.dotnet = {
-    nugetSources = {
-      "ep-github" = epNugetSource;
-    };
-  };
-
   tools.git = {
     workspaces."src/ep" = {
       user = { email = secrets.github.userEmail; };

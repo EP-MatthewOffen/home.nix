@@ -107,10 +107,6 @@ in
     profiles = secrets.aws.profiles;
   };
 
-  tools.dotnet = {
-    enable = true;
-  };
-
 
   tools.git = {
     enable = true;
